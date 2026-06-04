@@ -15,7 +15,7 @@ public class Utility {
         return addresses;
     }
         
-    public List<Integer> getSalariesOver(Salary employeeSalary, Integer filter) {
+    public List<Integer> getSalariesOver(Salary employeeSalary, Integer filter) {   // I forgot to make a new branch. 
         List<Integer> salaries = employeeSalary.returnSalaries();
         List<Integer> filterSalaries = new ArrayList<>();
         for (Integer salary : salaries ) {

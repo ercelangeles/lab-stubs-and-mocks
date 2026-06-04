@@ -15,7 +15,7 @@ public class Employee {
         this.salary = salary;
         this.address = address;
     }
-    public String getCapitalizedName() {
+    public String getCapitalizedName() {    // I forgot to make a new branch.
         return name.substring(0, 1).toUpperCase()+name.substring(1).toLowerCase();
     }
 }
